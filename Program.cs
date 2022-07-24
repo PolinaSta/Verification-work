@@ -3,7 +3,7 @@
 // либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, 
 // лучше обойтись исключительно массивами.
 
-string[] arrayOne =  {"Be", "future", "or"};
+string[] arrayOne =  {"Be", "future", "or", "no"};
 int countOne = MeaningLessThreeSimb(arrayOne);
 string[] resultOne =  ResultArray(arrayOne,countOne);
 
