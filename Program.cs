@@ -19,6 +19,14 @@ string[] arrayFour = {"up", "one", "51468746", "owl"};
 int countFour = MeaningLessThreeSimb(arrayFour);
 string[] resultFour = ResultArray(arrayFour, countFour);
 
+PrintArray(arrayOne);
+PrintArray(arrayTwo);
+PrintArray(arrayThree);
+PrintArray(arrayFour);
+
+Console.WriteLine();
+
+
 void PrintArray(string[] array) 
     {
 
