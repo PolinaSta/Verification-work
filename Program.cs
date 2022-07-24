@@ -7,6 +7,18 @@ string[] arrayOne =  {"Be", "future", "or", "no"};
 int countOne = MeaningLessThreeSimb(arrayOne);
 string[] resultOne =  ResultArray(arrayOne,countOne);
 
+string[] arrayTwo = {"big", "future", "car", "wonderful"};
+int countTwo  = MeaningLessThreeSimb(arrayTwo);
+string[] resultTwo = ResultArray(arrayTwo,countTwo);
+
+string[] arrayThree = {"mother", "we", "new", "day"};
+int countThree = MeaningLessThreeSimb(arrayThree);
+string[] resultThree = ResultArray(arrayThree, countThree);
+
+string[] arrayFour = {"up", "one", "51468746", "owl"};
+int countFour = MeaningLessThreeSimb(arrayFour);
+string[] resultFour = ResultArray(arrayFour, countFour);
+
 void PrintArray(string[] array) 
     {
 
@@ -43,3 +55,6 @@ string[] ResultArray(string[] array, int count)
     }
 
 PrintArray(resultOne);
+PrintArray(resultTwo);
+PrintArray(resultThree);
+PrintArray(resultFour);
